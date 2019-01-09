@@ -17,6 +17,8 @@
 # -DELETE: - /device/ -> delete a device (done automatically every 2 minutes for devices older than 30 minutes)
 #          - /user/ -> delete a user
 
+# INITIALIZING BROKER IS USELESS IF CONNECTED WITH ETHERNET, NEEDED IF WE MANAGE TO KNOW THE BROKER IP VIA PYTHON
+
 
 import cherrypy
 import json
